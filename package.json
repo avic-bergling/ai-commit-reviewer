@@ -1,0 +1,33 @@
+{
+  "name": "ai-commit-reviewer",
+  "version": "0.1.0",
+  "description": "Review staged git diffs from your terminal with the OpenAI Responses API.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avic-bergling/ai-commit-reviewer.git"
+  },
+  "homepage": "https://github.com/avic-bergling/ai-commit-reviewer#readme",
+  "bugs": {
+    "url": "https://github.com/avic-bergling/ai-commit-reviewer/issues"
+  },
+  "bin": {
+    "aicr": "./bin/aicr.js"
+  },
+  "scripts": {
+    "test": "node --test --test-isolation=none",
+    "start": "node ./bin/aicr.js"
+  },
+  "keywords": [
+    "ai",
+    "code-review",
+    "cli",
+    "git",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
